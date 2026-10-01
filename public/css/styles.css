@@ -1,0 +1,228 @@
+nav {
+  font-size: 1em;
+  font-weight: bold;
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  float: left;
+  margin: 0 5px 0 0;
+  color: rgb(255, 255, 255);
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+html { overflow-x: hidden;
+  font-size: 1em;
+  width: 75%;
+}
+
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background: rgb(218, 170, 14);
+}
+
+header {
+  height: 50px;
+  width: 1350px;
+  margin: 0.8em auto 1em auto;
+}
+
+main {
+  background: rgb(255, 255, 255);
+  width: 1350px;
+  min-height: 535px;
+  padding: 1.5%;
+  margin: 0 auto;
+}
+main #intro-image {
+  float: left;
+  width: 800px;
+}
+main #intro-image img {
+  width: 800px;
+}
+main #intro-text {
+  width: 550px;
+  height: 407px;
+  float: left;
+  background: rgb(212, 213, 216);
+  text-align: center;
+  padding-top: 8em;
+}
+main #intro-text h3 {
+  font-size: 2em;
+  color: rgb(49, 49, 48);
+}
+main #intro-text span {
+  font-family: "Sacramento", cursive;
+  font-size: 2em;
+}
+
+footer {
+  width: 1350px;
+  margin: 2em auto;
+  padding-left: 80px;
+  font-size: 0.85em;
+}
+
+button, .submit-buttton {
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 40px;
+  background: rgb(218, 170, 14);
+  margin-top: 2em;
+}
+
+.submit-buttton {
+  border: 1px rgb(49, 49, 48);
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#intro-text {
+  flex: 0 0 550px;
+}
+
+#intro-image {
+  flex: 0 0 800px;
+}
+
+/* Registration Page */
+
+.registration-page {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 535px;
+}
+
+.registration-brand {
+  width: 55%;
+  background: rgb(212, 213, 216);
+  text-align: center;
+  padding-top: 8em;
+}
+
+.registration-brand span {
+  font-family: "Sacramento", cursive;
+  font-size: 3em;
+}
+
+.registration-brand h3 {
+  font-size: 2em;
+  color: rgb(49, 49, 48);
+}
+
+.registration-brand p {
+  font-size: 1em;
+  margin: 30px;
+}
+
+.registration-form {
+  width: 45%;
+  padding: 6em 5em;
+  background: rgb(255, 255, 255);
+}
+
+.registration-form h2 {
+  color: rgb(49, 49, 48);
+  margin-bottom: 2em;
+}
+
+.form-registration label {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+
+.form-registration .form-control {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.submit-button {
+  color: rgb(255, 255, 255);
+  width: 120px;
+  height: 40px;
+  background: rgb(218, 170, 14);
+  border: none;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.my-errors {
+  color: red;
+  margin-bottom: 1em;
+}
+
+ /* Thank You Page */
+
+.thankyou-page {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 535px;
+}
+
+.thankyou-brand {
+  width: 55%;
+  background: rgb(212, 213, 216);
+  text-align: center;
+  padding-top: 8em;
+}
+
+.thankyou-brand span {
+  font-family: "Sacramento", cursive;
+  font-size: 3em;
+}
+
+.thankyou-brand h3 {
+  font-size: 2em;
+  color: rgb(49, 49, 48);
+}
+
+.thankyou-brand p {
+  font-size: 1em;
+  margin: 30px;
+}
+
+.thankyou-message {
+  width: 45%;
+  padding: 8em 5em;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.thankyou-message h2 {
+  color: rgb(49, 49, 48);
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.thankyou-message p {
+  font-size: 1.1em;
+  margin-bottom: 2em;
+}
+
+.thankyou-message a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background: rgb(218, 170, 14);
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: bold;
+}

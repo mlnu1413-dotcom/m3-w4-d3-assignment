@@ -1,0 +1,22 @@
+@import "colors.scss";
+
+.form-registration {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+
+  input {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .btn {
+    flex: 1 0 100%;
+  }
+}
+
+.my-errors {
+  color: red;
+  list-style: none;
+  padding: 0;
+}

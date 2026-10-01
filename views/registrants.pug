@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .container
+    h1 Registered Users
+
+    if registrations.length
+      table.listing-table
+        tr
+          th Name
+          th Email
+
+        each registration in registrations
+          tr
+            td= registration.name
+            td= registration.email
+    else
+      p No registrations yet :(
